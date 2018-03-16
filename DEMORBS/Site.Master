@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BRSi.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="it">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title><%: Page.Title %>- Backup Remote Service</title>
+ 
+     
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+           <%-- Link a script e style kendo --%>
+    <link href="Content/Site.css" rel="stylesheet">
+    <link href="KENDO/content/shared/styles/examples-offline.css" rel="stylesheet">
+
+ 
+
+    <%-- Link a script e style jquery ui --%>    
+    <script type="text/javascript" src="/scripts/js/jquery-1.10.2.min.js"></script>
+  
+    <script type="text/javascript" src="/scripts/js/jquery-ui-1.9.2.custom.min.js"></script>    
+    <link type="text/css" href="/Scripts/css/ui-lightness/jquery-ui-1.9.2.custom.css" rel="Stylesheet" />
+    
+    <link href="BOOTSTRAP/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="BOOTSTRAP/css/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width" />
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server"></asp:ScriptManager>
+
+    <header>
+        <div id="topPage" class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+
+                    <a runat="server" href="~/"><img src="/Images/Final LOGO.png" style="border-width:0px" /></a>
+                </p>
+            </div>
+            <div class="float-right">
+                <section id="login" style="font-size: small" runat="server" visible="false">
+                    <p>
+                                              
+                        <a class="btn btn-warning" role="button" style="color:white" href="/account/logout.aspx">LogOut</a>
+                    </p>
+
+                </section>
+                <nav>
+                    <ul id="menu">
+                        <li><a runat="server" href="~/">Home</a></li>
+                        <li><a runat="server" href="~/About.aspx">Informazioni</a></li>
+                        <li><a runat="server" href="~/Contact.aspx">Contatto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="body">
+        <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+        <section class="content-wrapper main-content clear-fix" > 
+            <asp:ContentPlaceHolder runat="server" ID="MainContent"  />
+        </section> 
+    </div>
+    <footer>
+        <div class="content-wrapper" style="font-size:x-small;">
+            
+                <p class="float-left">&copy; - Backup Remote Service</p>
+             
+        </div>
+    </footer>
+    </form>
+</body>
+</html>

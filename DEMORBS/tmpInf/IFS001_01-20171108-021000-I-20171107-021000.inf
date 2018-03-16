@@ -1,0 +1,110 @@
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.     1
+5770SS1 V7R3M0  160422                                                                     SVILUPPO  08/11/17         02:10:15 CET
+ Numero di serie del sistema  . . . . :    78F832W
+ Nome di sistema  . . . . . . . . . . :   SVILUPPO
+ Rilascio salvataggio . . . . . . . . :   V7R3M0
+ Rilascio destinazione  . . . . . . . :   V7R3M0
+ Comando di salvataggio . . . . . . . :   SAV
+ Data/ora salvataggio . . . . . . . . :   08/11/17  02:10:00
+ Modifica periodo salvataggio:
+   Data inizio  . . . . . . . . . . . :   07/11/17
+   Ora di avvio . . . . . . . . . . . :   02:10:00
+   Data fine  . . . . . . . . . . . . :   *ALL
+   Ora fine . . . . . . . . . . . . . :   *ALL
+ Salvataggio durante l'utilizzo . . . :   *SYNC
+   Opzione  . . . . . . . . . . . . . :   *NONE
+   ID sincronizzazione  . . . . . . . :   *NONE
+ Compressione dati  . . . . . . . . . :   Sì
+ File di salvataggio  . . . . . . . . :   IFS001_01
+   Libreria . . . . . . . . . . . . . :     QTEMP
+   Record . . . . . . . . . . . . . . :     89289
+ Autorizzazioni private . . . . . . . :   No
+ Indirizzario . . . . . . . . . . . . . . . . . . :   /
+   Oggetto           Tipo        Propriet.        Dimens.  Dati      *ALWCKPWRT  Testo
+   FlussiBanca       *DIR        ADMIN              12288  Sì         No
+ Indirizzario . . . . . . . . . . . . . . . . . . :   /FlussiBanca
+   Oggetto           Tipo        Propriet.        Dimens.  Dati      *ALWCKPWRT  Testo
+   flussi _201711 >  *STMF       ADMIN              32768  Sì         No
+   flussi _201711 >  *STMF       ADMIN              32768  Sì         No
+   flussi.txt        *STMF       ADMIN              32768  Sì         No
+   Oggetto
+   flussi _20171106.txt
+   flussi _20171107.txt
+ Indirizzario . . . . . . . . . . . . . . . . . . :   /QIBM/ProdData/HTTPA/symlinks
+   Oggetto           Tipo        Propriet.        Dimens.  Dati      *ALWCKPWRT  Testo
+   instance          *DIR        QTMHHTTP           12288  Sì         No
+ Indirizzario . . . . . . . . . . . . . . . . . . :   /QIBM/UserData/OS400/TCPIP
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.     2
+5770SS1 V7R3M0  160422                                                                     SVILUPPO  08/11/17         02:10:15 CET
+   Oggetto           Tipo        Propriet.        Dimens.  Dati      *ALWCKPWRT  Testo
+   NTP               *DIR        QSYS               40960  Sì         No
+ Indirizzario . . . . . . . . . . . . . . . . . . :   /QIBM/UserData/OS400/TCPIP/NTP
+   Oggetto           Tipo        Propriet.        Dimens.  Dati      *ALWCKPWRT  Testo
+   QTOT20171107      *STMF       QSECOFR            16384  Sì         No
+ Indirizzario . . . . . . . . . . . . . . . . . . :   /engel/213851
+   Oggetto           Tipo        Propriet.        Dimens.  Dati      *ALWCKPWRT  Testo
+   ReportProcessD >  *STMF       ADMIN           25165824  Sì         No
+   Oggetto
+   ReportProcessDatanew.dat
+ Indirizzario . . . . . . . . . . . . . . . . . . :   /www/test_cn
+   Oggetto           Tipo        Propriet.        Dimens.  Dati      *ALWCKPWRT  Testo
+   logs              *DIR        QSECOFR           270336  Sì         No
+ Indirizzario . . . . . . . . . . . . . . . . . . :   /www/test_cn/logs
+   Oggetto           Tipo        Propriet.        Dimens.  Dati      *ALWCKPWRT  Testo
+   access_log.Q11 >  *STMF       QTMHHTTP            4096  Sì         No
+   error_log.Q117 >  *STMF       QTMHHTTP            4096  Sì         No
+   Oggetto
+   access_log.Q117110700
+   error_log.Q117110700
+ Indirizzario . . . . . . . . . . . . . . . . . . :   /www/test_it
+   Oggetto           Tipo        Propriet.        Dimens.  Dati      *ALWCKPWRT  Testo
+   logs              *DIR        QSECOFR           196608  Sì         No
+ Indirizzario . . . . . . . . . . . . . . . . . . :   /www/test_it/logs
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.     3
+5770SS1 V7R3M0  160422                                                                     SVILUPPO  08/11/17         02:10:15 CET
+   Oggetto           Tipo        Propriet.        Dimens.  Dati      *ALWCKPWRT  Testo
+   access_log.Q11 >  *STMF       QTMHHTTP            8192  Sì         No
+   error_log.Q117 >  *STMF       QTMHHTTP            8192  Sì         No
+   Oggetto
+   access_log.Q117110700
+   error_log.Q117110700
+ Indirizzario . . . . . . . . . . . . . . . . . . :   /www/test_mx
+   Oggetto           Tipo        Propriet.        Dimens.  Dati      *ALWCKPWRT  Testo
+   logs              *DIR        QSECOFR           286720  Sì         No
+ Indirizzario . . . . . . . . . . . . . . . . . . :   /www/test_mx/logs
+   Oggetto           Tipo        Propriet.        Dimens.  Dati      *ALWCKPWRT  Testo
+   error_log.Q117 >  *STMF       QTMHHTTP            8192  Sì         No
+   Oggetto
+   error_log.Q117110700
+ Indirizzario . . . . . . . . . . . . . . . . . . :   /QOpenSys/QIBM/UserData/UME/Pegasus/logs
+   Oggetto           Tipo        Propriet.        Dimens.  Dati      *ALWCKPWRT  Testo
+   PegasusStandar >  *STMF       QSECOFR          7864320  Sì         No
+   ProviderAgentS >  *STMF       QSECOFR          3145728  Sì         No
+   ProviderAgentS >  *STMF       QSECOFR          3145728  Sì         No
+   ProviderAgentS >  *STMF       QSECOFR          3145728  Sì         No
+   ProviderAgentS >  *STMF       QSECOFR          2883584  Sì         No
+   ProviderAgentS >  *STMF       QSECOFR          2883584  Sì         No
+   Oggetto
+   PegasusStandard.log
+   ProviderAgentStrandard.QUME_BaseMetricsProfileModule.QSECOFR.log
+   ProviderAgentStrandard.QUME_Director2AndSMIS1Module.QSECOFR.log
+   ProviderAgentStrandard.QUME_InventoryProviderModule.QSECOFR.log
+   ProviderAgentStrandard.QUME_OSBaseProviderModule.QSECOFR.log
+   ProviderAgentStrandard.QUME_ProblemReportModule.QSECOFR.log
+ Indirizzario . . . . . . . . . . . . . . . . . . :   /QOpenSys/QIBM/UserData/UME/Pegasus/repository/root#cimv2
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.     4
+5770SS1 V7R3M0  160422                                                                     SVILUPPO  08/11/17         02:10:15 CET
+   Oggetto           Tipo        Propriet.        Dimens.  Dati      *ALWCKPWRT  Testo
+   instances         *DIR        QSYS               12288  Sì         No
+ Indirizzario . . . . . . . . . . . . . . . . . . :   /QOpenSys/QIBM/UserData/UME/Pegasus/repository/root#cimv2/instances
+   Oggetto           Tipo        Propriet.        Dimens.  Dati      *ALWCKPWRT  Testo
+   CIM_ServiceAcc >  *STMF       QSECOFR             8192  Sì         No
+   CIM_ServiceAcc >  *STMF       QSECOFR            32768  Sì         No
+   Oggetto
+   CIM_ServiceAccessURI.idx
+   CIM_ServiceAccessURI.instances
+ Indirizzario . . . . . . . . . . . . . . . . . . :   /QOpenSys/var
+   Oggetto           Tipo        Propriet.        Dimens.  Dati      *ALWCKPWRT  Testo
+   UME               *DIR        QSECOFR            12288  Sì         No
+ Numero di oggetti salvati  . . . . . . :   26
+                                            * * * * *   F I N E  E L E N C O   * * * * *

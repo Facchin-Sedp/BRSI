@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F2FA1B1-4A77-4B50-92E2-96DD83418F1C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BRSi</RootNamespace>
+    <AssemblyName>BRSi</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IBM.Data.DB2.iSeries, Version=12.0.0.0, Culture=neutral, PublicKeyToken=9cdb2ebfb1f93a26, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>as400lib\IBM.Data.DB2.iSeries.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.AWT.WinForms, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.AWT.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Beans, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.Beans.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Charsets, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.Charsets.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Corba, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.Corba.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Core, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Jdbc, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.Jdbc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Management, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Media, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Misc, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.Misc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Naming, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.Naming.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Remoting, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.Remoting.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Security, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.SwingAWT, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.SwingAWT.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Text, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Tools, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Util, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.API, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.XML.API.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Bind, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.XML.Bind.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Crypto, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.XML.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Parse, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.XML.Parse.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.Transform, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.XML.Transform.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.WebServices, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.XML.WebServices.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.XML.XPath, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.XML.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime, Version=7.1.4532.2, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="jt400, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\jt400.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.1.7.1\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery.UI.Combined">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.UI.Combined.1.8.20\lib\net45\AspNet.ScriptManager.jQuery.UI.Combined.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax, Version=4.5.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.4.5.6\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms, Version=4.5.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.4.5.6\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.1\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.1.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="WinSCP, Version=1.0.6.3261, Culture=neutral, PublicKeyToken=b5f19f5762436b89, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\WinSCP.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Logout.aspx" />
+    <Content Include="BOOTSTRAP\css\bootstrap-theme.css" />
+    <Content Include="BOOTSTRAP\css\bootstrap-theme.min.css" />
+    <Content Include="BOOTSTRAP\css\bootstrap.css" />
+    <Content Include="BOOTSTRAP\css\bootstrap.min.css" />
+    <Content Include="BOOTSTRAP\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="BOOTSTRAP\js\bootstrap.js" />
+    <Content Include="BOOTSTRAP\js\bootstrap.min.js" />
+    <Content Include="BOOTSTRAP\js\npm.js" />
+    <Content Include="Content\switch.css" />
+    <Content Include="Images\brand\acg.png" />
+    <Content Include="Images\brand\cbt.png" />
+    <Content Include="Images\brand\ibm.png" />
+    <Content Include="Images\brand\Logo-QSL-GROUP.png" />
+    <Content Include="Images\brand\logo_tango.png" />
+    <Content Include="Images\wait.gif" />
+    <Content Include="KENDO\js\jquery.min.js" />
+    <Content Include="KENDO\js\kendo.all.min.js" />
+    <Content Include="KENDO\js\kendo.autocomplete.min.js" />
+    <Content Include="KENDO\js\kendo.binder.min.js" />
+    <Content Include="KENDO\js\kendo.calendar.min.js" />
+    <Content Include="KENDO\js\kendo.colorpicker.min.js" />
+    <Content Include="KENDO\js\kendo.columnmenu.min.js" />
+    <Content Include="KENDO\js\kendo.combobox.min.js" />
+    <Content Include="KENDO\js\kendo.core.min.js" />
+    <Content Include="KENDO\js\kendo.data.min.js" />
+    <Content Include="KENDO\js\kendo.data.odata.min.js" />
+    <Content Include="KENDO\js\kendo.data.xml.min.js" />
+    <Content Include="KENDO\js\kendo.dataviz.chart.min.js" />
+    <Content Include="KENDO\js\kendo.dataviz.core.min.js" />
+    <Content Include="KENDO\js\kendo.dataviz.gauge.min.js" />
+    <Content Include="KENDO\js\kendo.dataviz.min.js" />
+    <Content Include="KENDO\js\kendo.dataviz.sparkline.min.js" />
+    <Content Include="KENDO\js\kendo.dataviz.stock.min.js" />
+    <Content Include="KENDO\js\kendo.dataviz.svg.min.js" />
+    <Content Include="KENDO\js\kendo.dataviz.themes.min.js" />
+    <Content Include="KENDO\js\kendo.dataviz.vml.min.js" />
+    <Content Include="KENDO\js\kendo.datepicker.min.js" />
+    <Content Include="KENDO\js\kendo.datetimepicker.min.js" />
+    <Content Include="KENDO\js\kendo.draganddrop.min.js" />
+    <Content Include="KENDO\js\kendo.dropdownlist.min.js" />
+    <Content Include="KENDO\js\kendo.editable.min.js" />
+    <Content Include="KENDO\js\kendo.editor.min.js" />
+    <Content Include="KENDO\js\kendo.filtermenu.min.js" />
+    <Content Include="KENDO\js\kendo.fx.min.js" />
+    <Content Include="KENDO\js\kendo.grid.min.js" />
+    <Content Include="KENDO\js\kendo.groupable.min.js" />
+    <Content Include="KENDO\js\kendo.imagebrowser.min.js" />
+    <Content Include="KENDO\js\kendo.list.min.js" />
+    <Content Include="KENDO\js\kendo.listview.min.js" />
+    <Content Include="KENDO\js\kendo.menu.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.actionsheet.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.application.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.button.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.buttongroup.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.listview.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.loader.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.modalview.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.navbar.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.pane.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.popover.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.scroller.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.scrollview.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.shim.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.splitview.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.switch.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.tabstrip.min.js" />
+    <Content Include="KENDO\js\kendo.mobile.view.min.js" />
+    <Content Include="KENDO\js\kendo.multiselect.min.js" />
+    <Content Include="KENDO\js\kendo.numerictextbox.min.js" />
+    <Content Include="KENDO\js\kendo.pager.min.js" />
+    <Content Include="KENDO\js\kendo.panelbar.min.js" />
+    <Content Include="KENDO\js\kendo.popup.min.js" />
+    <Content Include="KENDO\js\kendo.reorderable.min.js" />
+    <Content Include="KENDO\js\kendo.resizable.min.js" />
+    <Content Include="KENDO\js\kendo.router.min.js" />
+    <Content Include="KENDO\js\kendo.selectable.min.js" />
+    <Content Include="KENDO\js\kendo.slider.min.js" />
+    <Content Include="KENDO\js\kendo.sortable.min.js" />
+    <Content Include="KENDO\js\kendo.splitter.min.js" />
+    <Content Include="KENDO\js\kendo.tabstrip.min.js" />
+    <Content Include="KENDO\js\kendo.timepicker.min.js" />
+    <Content Include="KENDO\js\kendo.tooltip.min.js" />
+    <Content Include="KENDO\js\kendo.touch.min.js" />
+    <Content Include="KENDO\js\kendo.treeview.min.js" />
+    <Content Include="KENDO\js\kendo.upload.min.js" />
+    <Content Include="KENDO\js\kendo.userevents.min.js" />
+    <Content Include="KENDO\js\kendo.validator.min.js" />
+    <Content Include="KENDO\js\kendo.view.min.js" />
+    <Content Include="KENDO\js\kendo.web.min.js" />
+    <Content Include="KENDO\js\kendo.window.min.js" />
+    <Content Include="KENDO\styles\kendo.black.min.css" />
+    <Content Include="KENDO\styles\kendo.blueopal.min.css" />
+    <Content Include="KENDO\styles\kendo.bootstrap.min.css" />
+    <Content Include="KENDO\styles\kendo.common.min.css" />
+    <Content Include="KENDO\styles\kendo.dataviz.black.min.css" />
+    <Content Include="KENDO\styles\kendo.dataviz.blueopal.min.css" />
+    <Content Include="KENDO\styles\kendo.dataviz.bootstrap.min.css" />
+    <Content Include="KENDO\styles\kendo.dataviz.default.min.css" />
+    <Content Include="KENDO\styles\kendo.dataviz.highcontrast.min.css" />
+    <Content Include="KENDO\styles\kendo.dataviz.metro.min.css" />
+    <Content Include="KENDO\styles\kendo.dataviz.metroblack.min.css" />
+    <Content Include="KENDO\styles\kendo.dataviz.min.css" />
+    <Content Include="KENDO\styles\kendo.dataviz.moonlight.min.css" />
+    <Content Include="KENDO\styles\kendo.dataviz.silver.min.css" />
+    <Content Include="KENDO\styles\kendo.dataviz.uniform.min.css" />
+    <Content Include="KENDO\styles\kendo.default.min.css" />
+    <Content Include="KENDO\styles\kendo.highcontrast.min.css" />
+    <Content Include="KENDO\styles\kendo.metro.min.css" />
+    <Content Include="KENDO\styles\kendo.metroblack.min.css" />
+    <Content Include="KENDO\styles\kendo.mobile.all.min.css" />
+    <Content Include="KENDO\styles\kendo.mobile.android4.min.css" />
+    <Content Include="KENDO\styles\kendo.mobile.blackberry.min.css" />
+    <Content Include="KENDO\styles\kendo.mobile.ios.min.css" />
+    <Content Include="KENDO\styles\kendo.mobile.meego.min.css" />
+    <Content Include="KENDO\styles\kendo.mobile.wp8.min.css" />
+    <Content Include="KENDO\styles\kendo.moonlight.min.css" />
+    <Content Include="KENDO\styles\kendo.rtl.min.css" />
+    <Content Include="KENDO\styles\kendo.silver.min.css" />
+    <Content Include="KENDO\styles\kendo.uniform.min.css" />
+    <Content Include="Scheduled.aspx" />
+    <Content Include="Images\soluzioni.PNG" />
+    <Content Include="ScheduledIFS.aspx" />
+    <Content Include="Scripts\configdragdrop.js" />
+    <Content Include="Configuration.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\table.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Images\accent.png" />
+    <Content Include="Images\arrow_grey_sfoc.png" />
+    <Content Include="Images\big_img.jpg" />
+    <Content Include="Images\bullet.png" />
+    <Content Include="Images\Final LOGO.png" />
+    <Content Include="Images\green_128.png" />
+    <Content Include="Images\green_16.png" />
+    <Content Include="Images\green_225.png" />
+    <Content Include="Images\green_32.png" />
+    <Content Include="Images\green_48.png" />
+    <Content Include="Images\green_64.png" />
+    <Content Include="Images\heroAccent.png" />
+    <Content Include="Images\orderedList0.png" />
+    <Content Include="Images\orderedList1.png" />
+    <Content Include="Images\orderedList2.png" />
+    <Content Include="Images\orderedList3.png" />
+    <Content Include="Images\orderedList4.png" />
+    <Content Include="Images\orderedList5.png" />
+    <Content Include="Images\orderedList6.png" />
+    <Content Include="Images\orderedList7.png" />
+    <Content Include="Images\orderedList8.png" />
+    <Content Include="Images\orderedList9.png" />
+    <Content Include="Images\red_128.png" />
+    <Content Include="Images\red_16.png" />
+    <Content Include="Images\red_225.png" />
+    <Content Include="Images\red_32.png" />
+    <Content Include="Images\red_48.png" />
+    <Content Include="Images\red_64.png" />
+    <Content Include="Images\SEDP LOGO.png" />
+    <Content Include="Images\up18px.png" />
+    <Content Include="Images\yellow_128.png" />
+    <Content Include="Images\yellow_16.png" />
+    <Content Include="Images\yellow_225.png" />
+    <Content Include="Images\yellow_32.png" />
+    <Content Include="Images\yellow_48.png" />
+    <Content Include="Images\yellow_64.png" />
+    <Content Include="IseriesWebServices.asmx" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\js\jquery-1.10.2.js" />
+    <Content Include="Scripts\js\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\rbsScript.js" />
+    <Content Include="Scripts\ScheduleIFS.js" />
+    <Content Include="Scripts\Transferts.js" />
+    <Content Include="Transferts.aspx" />
+    <Content Include="winscp\WinSCP.dll" />
+    <Content Include="winscp\WinSCP.exe" />
+    <Content Include="BOOTSTRAP\css\bootstrap-theme.css.map" />
+    <Content Include="BOOTSTRAP\css\bootstrap.css.map" />
+    <Content Include="BOOTSTRAP\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="BOOTSTRAP\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="BOOTSTRAP\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="BOOTSTRAP\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Properties\PublishProfiles\AndreaFacchin.pubxml" />
+    <None Include="Properties\PublishProfiles\BRSI.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Panel.aspx" />
+    <Content Include="Scripts\Configuration.js" />
+    <Content Include="Scripts\css\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="Scripts\css\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Scripts\css\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="Scripts\css\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Scripts\css\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Scripts\css\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Scripts\css\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Scripts\css\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Scripts\css\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="Scripts\css\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="Scripts\css\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="Scripts\css\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Scripts\css\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="Scripts\css\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Scripts\css\ui-lightness\jquery-ui-1.9.2.custom.css" />
+    <Content Include="Scripts\css\ui-lightness\jquery-ui-1.9.2.custom.min.css" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.20.js" />
+    <Content Include="Scripts\jquery-ui-1.8.20.min.js" />
+    <Content Include="Scripts\jshighchart\js\adapters\mootools-adapter.js" />
+    <Content Include="Scripts\jshighchart\js\adapters\mootools-adapter.src.js" />
+    <Content Include="Scripts\jshighchart\js\adapters\prototype-adapter.js" />
+    <Content Include="Scripts\jshighchart\js\adapters\prototype-adapter.src.js" />
+    <Content Include="Scripts\jshighchart\js\highcharts-more.js" />
+    <Content Include="Scripts\jshighchart\js\highcharts-more.src.js" />
+    <Content Include="Scripts\jshighchart\js\highcharts.js" />
+    <Content Include="Scripts\jshighchart\js\highcharts.src.js" />
+    <Content Include="Scripts\jshighchart\js\modules\canvas-tools.js" />
+    <Content Include="Scripts\jshighchart\js\modules\canvas-tools.src.js" />
+    <Content Include="Scripts\jshighchart\js\modules\data.js" />
+    <Content Include="Scripts\jshighchart\js\modules\data.src.js" />
+    <Content Include="Scripts\jshighchart\js\modules\exporting.js" />
+    <Content Include="Scripts\jshighchart\js\modules\exporting.src.js" />
+    <Content Include="Scripts\jshighchart\js\themes\dark-blue.js" />
+    <Content Include="Scripts\jshighchart\js\themes\dark-green.js" />
+    <Content Include="Scripts\jshighchart\js\themes\gray.js" />
+    <Content Include="Scripts\jshighchart\js\themes\grid.js" />
+    <Content Include="Scripts\jshighchart\js\themes\skies.js" />
+    <Content Include="Scripts\js\jquery-1.8.3.js" />
+    <Content Include="Scripts\js\jquery-ui-1.9.2.custom.js" />
+    <Content Include="Scripts\js\jquery-ui-1.9.2.custom.min.js" />
+    <Content Include="Scripts\modernizr-2.5.3.js" />
+    <Content Include="Scripts\Roundabout\jquery.roundabout.js" />
+    <Content Include="Scripts\Roundabout\jquery.roundabout.min.js" />
+    <Content Include="Scripts\Schedule.js" />
+    <Content Include="Scripts\timepicker\i18n.html" />
+    <Content Include="Scripts\timepicker\jquery.ui.timepicker-cs.js" />
+    <Content Include="Scripts\timepicker\jquery.ui.timepicker-de.js" />
+    <Content Include="Scripts\timepicker\jquery.ui.timepicker-es.js" />
+    <Content Include="Scripts\timepicker\jquery.ui.timepicker-fr.js" />
+    <Content Include="Scripts\timepicker\jquery.ui.timepicker-hr.js" />
+    <Content Include="Scripts\timepicker\jquery.ui.timepicker-it.js" />
+    <Content Include="Scripts\timepicker\jquery.ui.timepicker-ja.js" />
+    <Content Include="Scripts\timepicker\jquery.ui.timepicker-nl.js" />
+    <Content Include="Scripts\timepicker\jquery.ui.timepicker-pl.js" />
+    <Content Include="Scripts\timepicker\jquery.ui.timepicker-pt-BR.js" />
+    <Content Include="Scripts\timepicker\jquery.ui.timepicker-sl.js" />
+    <Content Include="Scripts\timepicker\jquery.ui.timepicker-sv.js" />
+    <Content Include="Scripts\timepicker\jquery.ui.timepicker-tr.js" />
+    <Content Include="Scripts\timepicker\jquery.ui.timepicker.css" />
+    <Content Include="Scripts\timepicker\jquery.ui.timepicker.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="TextFile1.txt" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Bundle.config" />
+    <Content Include="winscp\winscp.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration.aspx.cs">
+      <DependentUpon>Configuration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Configuration.aspx.designer.cs">
+      <DependentUpon>Configuration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Scheduled.aspx.cs">
+      <DependentUpon>Scheduled.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Scheduled.aspx.designer.cs">
+      <DependentUpon>Scheduled.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FtpServer.cs" />
+    <Compile Include="FunzioniComuni.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="IseriesWebServices.asmx.cs">
+      <DependentUpon>IseriesWebServices.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Library.cs" />
+    <Compile Include="Panel.aspx.cs">
+      <DependentUpon>Panel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Panel.aspx.designer.cs">
+      <DependentUpon>Panel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScheduledIFS.aspx.cs">
+      <DependentUpon>ScheduledIFS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ScheduledIFS.aspx.designer.cs">
+      <DependentUpon>ScheduledIFS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Transferts.aspx.cs">
+      <DependentUpon>Transferts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transferts.aspx.designer.cs">
+      <DependentUpon>Transferts.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="KENDO\content\dataviz\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\Roundabout\roundabout.jquery.json" />
+    <Content Include="Scripts\js\jquery-1.10.2.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1690</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3658/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

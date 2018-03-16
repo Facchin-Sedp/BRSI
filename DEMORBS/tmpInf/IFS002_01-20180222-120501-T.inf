@@ -1,0 +1,1153 @@
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.     1
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+ Numero di serie del sistema  . . . . :    650CB3C
+ Rilascio salvataggio . . . . . . . . :   V5R3M0
+ Rilascio destinazione  . . . . . . . :   V5R3M0
+ Comando di salvataggio . . . . . . . :   SAV
+ Data/ora salvataggio . . . . . . . . :   22/02/18  12:05:01
+ Modifica periodo salvataggio:
+   Data inizio  . . . . . . . . . . . :   *ALL
+   Ora di avvio . . . . . . . . . . . :   *ALL
+   Data fine  . . . . . . . . . . . . :   *ALL
+   Ora fine . . . . . . . . . . . . . :   *ALL
+ Salvataggio mentre attivo  . . . . . :   *SYNC
+   Opz. . . . . . . . . . . . . . . . :   *NONE
+ Compressione dati  . . . . . . . . . :   Sì
+ File di salvataggio  . . . . . . . . :   IFS002_01
+   Libreria . . . . . . . . . . . . . :     QTEMP
+   Record . . . . . . . . . . . . . . :     24582
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   Eclipse           *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   .eclipseproduc >  *STMF        QSYS                 8192  Sì         No
+   EclipseStart      *STMF        QSYS                 8192  Sì         No
+   EclipseStop       *STMF        QSYS                 8192  Sì         No
+   configuration     *DIR         QEJBSVR              8192  Sì         No
+   features          *DIR         QSYS                 8192  Sì         No
+   links             *DIR         QSYS                 8192  Sì         No
+   plugins           *DIR         QSYS                28672  Sì         No
+   startup.jar       *STMF        QSYS               188416  Sì         No
+   Oggetto
+   .eclipseproduct
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/configuration
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   config.ini        *STMF        QEJBSVR              8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/links
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.     2
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   .link             *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   com.ibm.iserie >  *DIR         QSYS                12288  Sì         No
+   com.ibm.iserie >  *DIR         QSYS                28672  Sì         No
+   org.apache.ant >  *DIR         QSYS                 8192  Sì         No
+   org.apache.ant >  *DIR         QSYS                 8192  Sì         No
+   org.apache.luc >  *DIR         QSYS                 8192  Sì         No
+   org.eclipse.co >  *DIR         QSYS                 8192  Sì         No
+   org.eclipse.co >  *DIR         QSYS                 8192  Sì         No
+   org.eclipse.co >  *DIR         QSYS                 8192  Sì         No
+   org.eclipse.co >  *DIR         QSYS                 8192  Sì         No
+   org.eclipse.he >  *DIR         QSYS                 8192  Sì         No
+   org.eclipse.he >  *DIR         QSYS                 8192  Sì         No
+   org.eclipse.he >  *DIR         QSYS                 8192  Sì         No
+   org.eclipse.he >  *DIR         QSYS                 8192  Sì         No
+   org.eclipse.he >  *DIR         QSYS                 8192  Sì         No
+   org.eclipse.he >  *DIR         QSYS                 8192  Sì         No
+   org.eclipse.he >  *DIR         QSYS                 8192  Sì         No
+   org.eclipse.he >  *DIR         QSYS                 8192  Sì         No
+   org.eclipse.os >  *DIR         QSYS                 8192  Sì         No
+   org.eclipse.os >  *DIR         QSYS                 8192  Sì         No
+   org.eclipse.to >  *DIR         QSYS                24576  Sì         No
+   org.eclipse.up >  *DIR         QSYS                 8192  Sì         No
+   org.eclipse.up >  *DIR         QSYS                 8192  Sì         No
+   Oggetto
+   com.ibm.iseries.eclipse
+   com.ibm.iseries.eclipse.nl1
+   org.apache.ant.nl1_1.6.2
+   org.apache.ant_1.6.2
+   org.apache.lucene_1.3.1
+   org.eclipse.core.runtime.compatibility.nl1_3.0.0
+   org.eclipse.core.runtime.compatibility_3.0.0
+   org.eclipse.core.runtime.nl1_3.0.1
+   org.eclipse.core.runtime_3.0.1
+   org.eclipse.help.appserver.nl1_3.0.0
+   org.eclipse.help.appserver_3.0.0
+   org.eclipse.help.base.nl1_3.0.1
+   org.eclipse.help.base_3.0.1
+   org.eclipse.help.nl1_3.0.0
+   org.eclipse.help.webapp.nl1_3.0.1
+   org.eclipse.help.webapp_3.0.1
+   org.eclipse.help_3.0.0
+   org.eclipse.osgi.nl1_3.0.1
+   org.eclipse.osgi_3.0.1
+   org.eclipse.tomcat_4.1.30
+   org.eclipse.update.configurator.nl1_3.0.0
+   org.eclipse.update.configurator_3.0.0
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.     3
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/com.ibm.iseries.eclipse
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   EclipseAdmin.w >  *STMF        QSYS                 8192  Sì         No
+   EclipseConfigu >  *STMF        QSYS                 8192  Sì         No
+   HelpManager.ja >  *STMF        QSYS               188416  Sì         No
+   Oggetto
+   EclipseAdmin.web.xml
+   EclipseConfiguration.properties
+   HelpManager.jar
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/com.ibm.iseries.eclipse.nl1
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.     4
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   iserieseclipse >  *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   iserieseclipse.properties
+   iserieseclipse_ar.properties
+   iserieseclipse_cs.properties
+   iserieseclipse_da.properties
+   iserieseclipse_de.properties
+   iserieseclipse_de_CH.properties
+   iserieseclipse_el.properties
+   iserieseclipse_en.properties
+   iserieseclipse_es.properties
+   iserieseclipse_fi.properties
+   iserieseclipse_fr.properties
+   iserieseclipse_fr_BE.properties
+   iserieseclipse_fr_CA.properties
+   iserieseclipse_fr_CH.properties
+   iserieseclipse_he.properties
+   iserieseclipse_hr.properties
+   iserieseclipse_hu.properties
+   iserieseclipse_is.properties
+   iserieseclipse_it.properties
+   iserieseclipse_it_CH.properties
+   iserieseclipse_ja.properties
+   iserieseclipse_ko.properties
+   iserieseclipse_nl.properties
+   iserieseclipse_nl_BE.properties
+   iserieseclipse_nl_NL.properties
+   iserieseclipse_no.properties
+   iserieseclipse_pl.properties
+   iserieseclipse_pt.properties
+   iserieseclipse_pt_BR.properties
+   iserieseclipse_pt_PT.properties
+   iserieseclipse_ro.properties
+   iserieseclipse_ru.properties
+   iserieseclipse_sk.properties
+   iserieseclipse_sl.properties
+   iserieseclipse_sv.properties
+   iserieseclipse_th.properties
+   iserieseclipse_tr.properties
+   iserieseclipse_zh_CN.properties
+   iserieseclipse_zh_TW.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.apache.ant.nl1_1.6.2
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   about.html        *STMF        QSYS                 8192  Sì         No
+   fragment.xml      *STMF        QSYS                 8192  Sì         No
+   plugin_de.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_es.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_fr.prop >  *STMF        QSYS                 8192  Sì         No
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.     5
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   plugin_it.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_ja.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_ko.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_pt_BR.p >  *STMF        QSYS                 8192  Sì         No
+   plugin_zh_CN.p >  *STMF        QSYS                 8192  Sì         No
+   plugin_zh_TW.p >  *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   plugin_de.properties
+   plugin_es.properties
+   plugin_fr.properties
+   plugin_it.properties
+   plugin_ja.properties
+   plugin_ko.properties
+   plugin_pt_BR.properties
+   plugin_zh_CN.properties
+   plugin_zh_TW.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.apache.ant_1.6.2
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   LICENSE.dom.ht >  *STMF        QSYS                 8192  Sì         No
+   LICENSE.sax.tx >  *STMF        QSYS                 8192  Sì         No
+   about.html        *STMF        QSYS                 8192  Sì         No
+   asl-v20.txt       *STMF        QSYS                16384  Sì         No
+   bin               *DIR         QSYS                 8192  Sì         No
+   lib               *DIR         QSYS                24576  Sì         No
+   plugin.propert >  *STMF        QSYS                 8192  Sì         No
+   plugin.xml        *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   LICENSE.dom.html
+   LICENSE.sax.txt
+   plugin.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.apache.ant_1.6.2/bin
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   antRun            *STMF        QSYS                 8192  Sì         No
+   antRun.bat        *STMF        QSYS                 8192  Sì         No
+   antRun.pl         *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.apache.ant_1.6.2/lib
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.     6
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   ant-antlr.jar     *STMF        QSYS                16384  Sì         No
+   ant-apache-bce >  *STMF        QSYS                16384  Sì         No
+   ant-apache-bsf >  *STMF        QSYS                32768  Sì         No
+   ant-apache-log >  *STMF        QSYS                 8192  Sì         No
+   ant-apache-oro >  *STMF        QSYS                65536  Sì         No
+   ant-apache-reg >  *STMF        QSYS                 8192  Sì         No
+   ant-apache-res >  *STMF        QSYS                 8192  Sì         No
+   ant-commons-lo >  *STMF        QSYS                 8192  Sì         No
+   ant-commons-ne >  *STMF        QSYS                65536  Sì         No
+   ant-icontract. >  *STMF        QSYS                16384  Sì         No
+   ant-jai.jar       *STMF        QSYS                32768  Sì         No
+   ant-javamail.j >  *STMF        QSYS                16384  Sì         No
+   ant-jdepend.ja >  *STMF        QSYS                16384  Sì         No
+   ant-jmf.jar       *STMF        QSYS                16384  Sì         No
+   ant-jsch.jar      *STMF        QSYS                32768  Sì         No
+   ant-junit.jar     *STMF        QSYS                98304  Sì         No
+   ant-launcher.j >  *STMF        QSYS                16384  Sì         No
+   ant-netrexx.ja >  *STMF        QSYS                16384  Sì         No
+   ant-nodeps.jar    *STMF        QSYS               524288  Sì         No
+   ant-starteam.j >  *STMF        QSYS                65536  Sì         No
+   ant-stylebook. >  *STMF        QSYS                 8192  Sì         No
+   ant-swing.jar     *STMF        QSYS                16384  Sì         No
+   ant-trax.jar      *STMF        QSYS                98304  Sì         No
+   ant-vaj.jar       *STMF        QSYS                65536  Sì         No
+   ant-weblogic.j >  *STMF        QSYS                32768  Sì         No
+   ant-xalan1.jar    *STMF        QSYS                16384  Sì         No
+   ant-xslp.jar      *STMF        QSYS                 8192  Sì         No
+   ant.jar           *STMF        QSYS              1048576  Sì         No
+   Oggetto
+   ant-apache-bcel.jar
+   ant-apache-bsf.jar
+   ant-apache-log4j.jar
+   ant-apache-oro.jar
+   ant-apache-regexp.jar
+   ant-apache-resolver.jar
+   ant-commons-logging.jar
+   ant-commons-net.jar
+   ant-icontract.jar
+   ant-javamail.jar
+   ant-jdepend.jar
+   ant-launcher.jar
+   ant-netrexx.jar
+   ant-starteam.jar
+   ant-stylebook.jar
+   ant-weblogic.jar
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.apache.lucene_1.3.1
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.     7
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   about.html        *STMF        QSYS                16384  Sì         No
+   lucene-1.3-fin >  *STMF        QSYS               262144  Sì         No
+   parser.jar        *STMF        QSYS                65536  Sì         No
+   plugin.propert >  *STMF        QSYS                 8192  Sì         No
+   plugin.xml        *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   lucene-1.3-final.jar
+   plugin.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.core.runtime.compatibility.nl
+1_3.0.0
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   META-INF          *DIR         QSYS                 8192  Sì         No
+   about.html        *STMF        QSYS                 8192  Sì         No
+   nl1.jar           *STMF        QSYS                16384  Sì         No
+   nl_fragment.pr >  *STMF        QSYS                 8192  Sì         No
+   plugin_de.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_es.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_fr.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_it.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_ja.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_ko.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_pt_BR.p >  *STMF        QSYS                 8192  Sì         No
+   plugin_zh_CN.p >  *STMF        QSYS                 8192  Sì         No
+   plugin_zh_TW.p >  *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   nl_fragment.properties
+   plugin_de.properties
+   plugin_es.properties
+   plugin_fr.properties
+   plugin_it.properties
+   plugin_ja.properties
+   plugin_ko.properties
+   plugin_pt_BR.properties
+   plugin_zh_CN.properties
+   plugin_zh_TW.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.core.runtime.compatibility.nl
+1_3.0.0
+   /META-INF
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   MANIFEST.MF       *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.core.runtime.compatibility_3.
+0.0
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.     8
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   META-INF          *DIR         QSYS                 8192  Sì         No
+   about.html        *STMF        QSYS                 8192  Sì         No
+   compatibility. >  *STMF        QSYS                98304  Sì         No
+   plugin.propert >  *STMF        QSYS                 8192  Sì         No
+   plugin.xml        *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   compatibility.jar
+   plugin.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.core.runtime.compatibility_3.
+0.0/MET
+   A-INF
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   MANIFEST.MF       *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.core.runtime.nl1_3.0.1
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   META-INF          *DIR         QSYS                 8192  Sì         No
+   about.html        *STMF        QSYS                 8192  Sì         No
+   nl1.jar           *STMF        QSYS                65536  Sì         No
+   nl_fragment.pr >  *STMF        QSYS                 8192  Sì         No
+   plugin_de.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_es.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_fr.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_it.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_ja.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_ko.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_pt_BR.p >  *STMF        QSYS                 8192  Sì         No
+   plugin_zh_CN.p >  *STMF        QSYS                 8192  Sì         No
+   plugin_zh_TW.p >  *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   nl_fragment.properties
+   plugin_de.properties
+   plugin_es.properties
+   plugin_fr.properties
+   plugin_it.properties
+   plugin_ja.properties
+   plugin_ko.properties
+   plugin_pt_BR.properties
+   plugin_zh_CN.properties
+   plugin_zh_TW.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.core.runtime.nl1_3.0.1/META-I
+NF
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.     9
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   MANIFEST.MF       *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.core.runtime_3.0.1
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   .options          *STMF        QSYS                 8192  Sì         No
+   META-INF          *DIR         QSYS                 8192  Sì         No
+   about.html        *STMF        QSYS                 8192  Sì         No
+   plugin.propert >  *STMF        QSYS                 8192  Sì         No
+   plugin.xml        *STMF        QSYS                 8192  Sì         No
+   runtime.jar       *STMF        QSYS               393216  Sì         No
+   Oggetto
+   plugin.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.core.runtime_3.0.1/META-INF
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   MANIFEST.MF       *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.appserver.nl1_3.0.0
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   about.html        *STMF        QSYS                 8192  Sì         No
+   fragment.xml      *STMF        QSYS                 8192  Sì         No
+   nl1.jar           *STMF        QSYS                16384  Sì         No
+   plugin_de.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_es.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_fr.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_it.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_ja.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_ko.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_pt_BR.p >  *STMF        QSYS                 8192  Sì         No
+   plugin_zh_CN.p >  *STMF        QSYS                 8192  Sì         No
+   plugin_zh_TW.p >  *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   plugin_de.properties
+   plugin_es.properties
+   plugin_fr.properties
+   plugin_it.properties
+   plugin_ja.properties
+   plugin_ko.properties
+   plugin_pt_BR.properties
+   plugin_zh_CN.properties
+   plugin_zh_TW.properties
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    10
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.appserver_3.0.0
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   about.html        *STMF        QSYS                 8192  Sì         No
+   appserver.jar     *STMF        QSYS                16384  Sì         No
+   plugin.propert >  *STMF        QSYS                 8192  Sì         No
+   plugin.xml        *STMF        QSYS                 8192  Sì         No
+   preferences.in >  *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   plugin.properties
+   preferences.ini
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   about.html        *STMF        QSYS                 8192  Sì         No
+   fragment.xml      *STMF        QSYS                 8192  Sì         No
+   nl                *DIR         QSYS                 8192  Sì         No
+   nl1.jar           *STMF        QSYS                32768  Sì         No
+   plugin_de.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_es.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_fr.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_it.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_ja.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_ko.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_pt_BR.p >  *STMF        QSYS                 8192  Sì         No
+   plugin_zh_CN.p >  *STMF        QSYS                 8192  Sì         No
+   plugin_zh_TW.p >  *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   plugin_de.properties
+   plugin_es.properties
+   plugin_fr.properties
+   plugin_it.properties
+   plugin_ja.properties
+   plugin_ko.properties
+   plugin_pt_BR.properties
+   plugin_zh_CN.properties
+   plugin_zh_TW.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   de                *DIR         QSYS                 8192  Sì         No
+   es                *DIR         QSYS                 8192  Sì         No
+   fr                *DIR         QSYS                 8192  Sì         No
+   it                *DIR         QSYS                 8192  Sì         No
+   ja                *DIR         QSYS                 8192  Sì         No
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    11
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   ko                *DIR         QSYS                 8192  Sì         No
+   pt                *DIR         QSYS                 8192  Sì         No
+   zh                *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/de
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   doc               *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/de/doc
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   help_home.html    *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/es
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   doc               *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/es/doc
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   help_home.html    *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/fr
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   doc               *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/fr/doc
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   help_home.html    *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/it
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    12
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   doc               *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/it/doc
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   help_home.html    *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/ja
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   doc               *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/ja/doc
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   help_home.html    *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/ko
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   doc               *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/ko/doc
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   help_home.html    *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/pt
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   BR                *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/pt/BR
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   doc               *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/pt/BR/
+doc
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    13
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   help_home.html    *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/zh
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   CN                *DIR         QSYS                 8192  Sì         No
+   TW                *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/zh/CN
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   doc               *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/zh/CN/
+doc
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   help_home.html    *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/zh/TW
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   doc               *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base.nl1_3.0.1/nl/zh/TW/
+doc
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   help_home.html    *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base_3.0.1
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   .options          *STMF        QSYS                 8192  Sì         No
+   about.html        *STMF        QSYS                 8192  Sì         No
+   doc               *DIR         QSYS                 8192  Sì         No
+   helpbase.jar      *STMF        QSYS               380928  Sì         No
+   plugin.propert >  *STMF        QSYS                 8192  Sì         No
+   plugin.xml        *STMF        QSYS                16384  Sì         No
+   preferences.in >  *STMF        QSYS                16384  Sì         No
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    14
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto
+   plugin.properties
+   preferences.ini
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.base_3.0.1/doc
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   book.css          *STMF        QSYS                 8192  Sì         No
+   contents_view. >  *STMF        QSYS                 8192  Sì         No
+   cpy.gif           *STMF        QSYS                 8192  Sì         No
+   e_show_all.gif    *STMF        QSYS                 8192  Sì         No
+   e_synch_nav.gi >  *STMF        QSYS                 8192  Sì         No
+   e_synch_toc_na >  *STMF        QSYS                 8192  Sì         No
+   help_banner.jp >  *STMF        QSYS                65536  Sì         No
+   help_home.html    *STMF        QSYS                 8192  Sì         No
+   hglegal2004.ht >  *STMF        QSYS                 8192  Sì         No
+   search_results >  *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   contents_view.gif
+   e_synch_nav.gif
+   e_synch_toc_nav.gif
+   help_banner.jpg
+   hglegal2004.htm
+   search_results_view.gif
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.nl1_3.0.0
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   about.html        *STMF        QSYS                 8192  Sì         No
+   fragment.xml      *STMF        QSYS                 8192  Sì         No
+   nl1.jar           *STMF        QSYS                16384  Sì         No
+   plugin_de.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_es.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_fr.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_it.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_ja.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_ko.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_pt_BR.p >  *STMF        QSYS                 8192  Sì         No
+   plugin_zh_CN.p >  *STMF        QSYS                 8192  Sì         No
+   plugin_zh_TW.p >  *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   plugin_de.properties
+   plugin_es.properties
+   plugin_fr.properties
+   plugin_it.properties
+   plugin_ja.properties
+   plugin_ko.properties
+   plugin_pt_BR.properties
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    15
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto
+   plugin_zh_CN.properties
+   plugin_zh_TW.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.webapp.nl1_3.0.1
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   about.html        *STMF        QSYS                 8192  Sì         No
+   fragment.xml      *STMF        QSYS                 8192  Sì         No
+   nl1.jar           *STMF        QSYS                65536  Sì         No
+   plugin_de.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_es.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_fr.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_it.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_ja.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_ko.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_pt_BR.p >  *STMF        QSYS                 8192  Sì         No
+   plugin_zh_CN.p >  *STMF        QSYS                 8192  Sì         No
+   plugin_zh_TW.p >  *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   plugin_de.properties
+   plugin_es.properties
+   plugin_fr.properties
+   plugin_it.properties
+   plugin_ja.properties
+   plugin_ko.properties
+   plugin_pt_BR.properties
+   plugin_zh_CN.properties
+   plugin_zh_TW.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.webapp_3.0.1
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   .options          *STMF        QSYS                 8192  Sì         No
+   WEB-INF           *DIR         QSYS                 8192  Sì         No
+   about.html        *STMF        QSYS                 8192  Sì         No
+   advanced          *DIR         QSYS                24576  Sì         No
+   basic             *DIR         QSYS                24576  Sì         No
+   index.jsp         *STMF        QSYS                 8192  Sì         No
+   plugin.propert >  *STMF        QSYS                 8192  Sì         No
+   plugin.xml        *STMF        QSYS                 8192  Sì         No
+   webapp.jar        *STMF        QSYS                16384  Sì         No
+   Oggetto
+   plugin.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.webapp_3.0.1/WEB-INF
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    16
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   lib               *DIR         QSYS                 8192  Sì         No
+   web.xml           *STMF        QSYS                32768  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.webapp_3.0.1/WEB-INF/lib
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   jsp.jar           *STMF        QSYS               196608  Sì         No
+   servlets.jar      *STMF        QSYS                98304  Sì         No
+   servletssrc.zi >  *STMF        QSYS                65536  Sì         No
+   Oggetto
+   servletssrc.zip
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.webapp_3.0.1/advanced
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   advanced.jsp      *STMF        QSYS                16384  Sì         No
+   askShowAll.jsp    *STMF        QSYS                 8192  Sì         No
+   banner.html       *STMF        QSYS                 8192  Sì         No
+   bookmarksToolb >  *STMF        QSYS                 8192  Sì         No
+   bookmarksView. >  *STMF        QSYS                 8192  Sì         No
+   confirm.jsp       *STMF        QSYS                 8192  Sì         No
+   confirmShowAll >  *STMF        QSYS                 8192  Sì         No
+   content.jsp       *STMF        QSYS                 8192  Sì         No
+   contentActions >  *STMF        QSYS                 8192  Sì         No
+   contentToolbar >  *STMF        QSYS                 8192  Sì         No
+   err.jsp           *STMF        QSYS                 8192  Sì         No
+   fheader.jsp       *STMF        QSYS                 8192  Sì         No
+   header.jsp        *STMF        QSYS                 8192  Sì         No
+   help.jsp          *STMF        QSYS                16384  Sì         No
+   highlight.js      *STMF        QSYS                 8192  Sì         No
+   images            *DIR         QSYS                28672  Sì         No
+   index.jsp         *STMF        QSYS                 8192  Sì         No
+   linksToolbar.j >  *STMF        QSYS                 8192  Sì         No
+   linksView.jsp     *STMF        QSYS                 8192  Sì         No
+   list.css          *STMF        QSYS                 8192  Sì         No
+   list.js           *STMF        QSYS                16384  Sì         No
+   livehelp_js.js >  *STMF        QSYS                 8192  Sì         No
+   nav.jsp           *STMF        QSYS                 8192  Sì         No
+   navActions.js     *STMF        QSYS                 8192  Sì         No
+   search.jsp        *STMF        QSYS                 8192  Sì         No
+   searchScoped.j >  *STMF        QSYS                16384  Sì         No
+   searchSimple.j >  *STMF        QSYS                16384  Sì         No
+   searchToolbar. >  *STMF        QSYS                 8192  Sì         No
+   searchView.jsp    *STMF        QSYS                 8192  Sì         No
+   tabs.jsp          *STMF        QSYS                16384  Sì         No
+   toc.js            *STMF        QSYS                32768  Sì         No
+   tocFragment.js >  *STMF        QSYS                 8192  Sì         No
+   tocToolbar.jsp    *STMF        QSYS                 8192  Sì         No
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    17
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   tocView.jsp       *STMF        QSYS                16384  Sì         No
+   toolbar.jsp       *STMF        QSYS                16384  Sì         No
+   tree.css          *STMF        QSYS                 8192  Sì         No
+   view.jsp          *STMF        QSYS                 8192  Sì         No
+   views.jsp         *STMF        QSYS                16384  Sì         No
+   workingSet.jsp    *STMF        QSYS                16384  Sì         No
+   workingSetMana >  *STMF        QSYS                16384  Sì         No
+   Oggetto
+   bookmarksToolbar.jsp
+   bookmarksView.jsp
+   confirmShowAll.jsp
+   contentActions.js
+   contentToolbar.jsp
+   linksToolbar.jsp
+   livehelp_js.jsp
+   searchScoped.jsp
+   searchSimple.jsp
+   searchToolbar.jsp
+   tocFragment.jsp
+   workingSetManager.jsp
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.webapp_3.0.1/advanced/im
+ages
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   add_bkmrk.gif     *STMF        QSYS                 8192  Sì         No
+   back.gif          *STMF        QSYS                 8192  Sì         No
+   bookmark_rem.g >  *STMF        QSYS                 8192  Sì         No
+   bookmark_remal >  *STMF        QSYS                 8192  Sì         No
+   container_obj. >  *STMF        QSYS                 8192  Sì         No
+   e_add_bkmrk.gi >  *STMF        QSYS                 8192  Sì         No
+   e_back.gif        *STMF        QSYS                 8192  Sì         No
+   e_bookmark_rem >  *STMF        QSYS                 8192  Sì         No
+   e_bookmark_rem >  *STMF        QSYS                 8192  Sì         No
+   e_bookmarks_vi >  *STMF        QSYS                 8192  Sì         No
+   e_contents_vie >  *STMF        QSYS                 8192  Sì         No
+   e_forward.gif     *STMF        QSYS                 8192  Sì         No
+   e_links_view.g >  *STMF        QSYS                 8192  Sì         No
+   e_maximize.gif    *STMF        QSYS                 8192  Sì         No
+   e_print_edit.g >  *STMF        QSYS                 8192  Sì         No
+   e_restore.gif     *STMF        QSYS                 8192  Sì         No
+   e_search_resul >  *STMF        QSYS                 8192  Sì         No
+   e_show_all.gif    *STMF        QSYS                 8192  Sì         No
+   e_synch_nav.gi >  *STMF        QSYS                 8192  Sì         No
+   e_synch_toc_na >  *STMF        QSYS                 8192  Sì         No
+   forward.gif       *STMF        QSYS                 8192  Sì         No
+   help_banner.jp >  *STMF        QSYS                65536  Sì         No
+   maximize.gif      *STMF        QSYS                 8192  Sì         No
+   minus.gif         *STMF        QSYS                 8192  Sì         No
+   plus.gif          *STMF        QSYS                 8192  Sì         No
+   print_edit.gif    *STMF        QSYS                 8192  Sì         No
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    18
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   restore.gif       *STMF        QSYS                 8192  Sì         No
+   show_all.gif      *STMF        QSYS                 8192  Sì         No
+   synch_nav.gif     *STMF        QSYS                 8192  Sì         No
+   synch_toc_nav. >  *STMF        QSYS                 8192  Sì         No
+   toc_closed.gif    *STMF        QSYS                 8192  Sì         No
+   toc_open.gif      *STMF        QSYS                 8192  Sì         No
+   topic.gif         *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   bookmark_rem.gif
+   bookmark_remall.gif
+   container_obj.gif
+   e_add_bkmrk.gif
+   e_bookmark_rem.gif
+   e_bookmark_remall.gif
+   e_bookmarks_view.gif
+   e_contents_view.gif
+   e_links_view.gif
+   e_print_edit.gif
+   e_search_results_view.gif
+   e_synch_nav.gif
+   e_synch_toc_nav.gif
+   help_banner.jpg
+   synch_toc_nav.gif
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.webapp_3.0.1/basic
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   advanced.inc      *STMF        QSYS                 8192  Sì         No
+   err.jsp           *STMF        QSYS                 8192  Sì         No
+   header.jsp        *STMF        QSYS                 8192  Sì         No
+   help.jsp          *STMF        QSYS                 8192  Sì         No
+   images            *DIR         QSYS                12288  Sì         No
+   index.jsp         *STMF        QSYS                 8192  Sì         No
+   linksToolbar.j >  *STMF        QSYS                 8192  Sì         No
+   linksView.jsp     *STMF        QSYS                 8192  Sì         No
+   livehelp_js.js >  *STMF        QSYS                 8192  Sì         No
+   searchToolbar. >  *STMF        QSYS                 8192  Sì         No
+   searchView.jsp    *STMF        QSYS                 8192  Sì         No
+   tabs.jsp          *STMF        QSYS                 8192  Sì         No
+   tocToolbar.jsp    *STMF        QSYS                 8192  Sì         No
+   tocView.jsp       *STMF        QSYS                 8192  Sì         No
+   toolbar.jsp       *STMF        QSYS                 8192  Sì         No
+   view.jsp          *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   linksToolbar.jsp
+   livehelp_js.jsp
+   searchToolbar.jsp
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    19
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help.webapp_3.0.1/basic/image
+s
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   bookmark_obj.g >  *STMF        QSYS                 8192  Sì         No
+   bookmarks_view >  *STMF        QSYS                 8192  Sì         No
+   container_obj. >  *STMF        QSYS                 8192  Sì         No
+   e_contents_vie >  *STMF        QSYS                 8192  Sì         No
+   e_links_view.g >  *STMF        QSYS                 8192  Sì         No
+   e_search_resul >  *STMF        QSYS                 8192  Sì         No
+   e_synch_toc_na >  *STMF        QSYS                 8192  Sì         No
+   synch_toc_nav. >  *STMF        QSYS                 8192  Sì         No
+   toc_closed.gif    *STMF        QSYS                 8192  Sì         No
+   toc_open.gif      *STMF        QSYS                 8192  Sì         No
+   topic.gif         *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   bookmark_obj.gif
+   bookmarks_view.gif
+   container_obj.gif
+   e_contents_view.gif
+   e_links_view.gif
+   e_search_results_view.gif
+   e_synch_toc_nav.gif
+   synch_toc_nav.gif
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help_3.0.0
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   .options          *STMF        QSYS                 8192  Sì         No
+   about.html        *STMF        QSYS                 8192  Sì         No
+   dtd               *DIR         QSYS                 8192  Sì         No
+   help.jar          *STMF        QSYS                98304  Sì         No
+   livehelp.js       *STMF        QSYS                 8192  Sì         No
+   plugin.propert >  *STMF        QSYS                 8192  Sì         No
+   plugin.xml        *STMF        QSYS                 8192  Sì         No
+   preferences.in >  *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   plugin.properties
+   preferences.ini
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.help_3.0.0/dtd
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    20
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   contexts.dtd      *STMF        QSYS                 8192  Sì         No
+   toc.dtd           *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi.nl1_3.0.1
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   META-INF          *DIR         QSYS                 8192  Sì         No
+   about.html        *STMF        QSYS                 8192  Sì         No
+   org.eclipse.os >  *DIR         QSYS                12288  Sì         No
+   Oggetto
+   org.eclipse.osgi.nl
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi.nl1_3.0.1/META-INF
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   MANIFEST.MF       *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi.nl1_3.0.1/org.eclipse.os
+gi.nl
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   org               *DIR         QSYS                 8192  Sì         No
+   systembundle_d >  *STMF        QSYS                 8192  Sì         No
+   systembundle_e >  *STMF        QSYS                 8192  Sì         No
+   systembundle_f >  *STMF        QSYS                 8192  Sì         No
+   systembundle_i >  *STMF        QSYS                 8192  Sì         No
+   systembundle_j >  *STMF        QSYS                 8192  Sì         No
+   systembundle_k >  *STMF        QSYS                 8192  Sì         No
+   systembundle_p >  *STMF        QSYS                 8192  Sì         No
+   systembundle_z >  *STMF        QSYS                 8192  Sì         No
+   systembundle_z >  *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   systembundle_de.properties
+   systembundle_es.properties
+   systembundle_fr.properties
+   systembundle_it.properties
+   systembundle_ja.properties
+   systembundle_ko.properties
+   systembundle_pt_BR.properties
+   systembundle_zh_CN.properties
+   systembundle_zh_TW.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi.nl1_3.0.1/org.eclipse.os
+gi.nl/o
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    21
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   rg
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   eclipse           *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi.nl1_3.0.1/org.eclipse.os
+gi.nl/o
+   rg/eclipse
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   core              *DIR         QSYS                 8192  Sì         No
+   osgi              *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi.nl1_3.0.1/org.eclipse.os
+gi.nl/o
+   rg/eclipse/core
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   runtime           *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi.nl1_3.0.1/org.eclipse.os
+gi.nl/o
+   rg/eclipse/core/runtime
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   adaptor           *DIR         QSYS                12288  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi.nl1_3.0.1/org.eclipse.os
+gi.nl/o
+   rg/eclipse/core/runtime/adaptor
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   EclipseAdaptor >  *STMF        QSYS                16384  Sì         No
+   EclipseAdaptor >  *STMF        QSYS                16384  Sì         No
+   EclipseAdaptor >  *STMF        QSYS                16384  Sì         No
+   EclipseAdaptor >  *STMF        QSYS                16384  Sì         No
+   EclipseAdaptor >  *STMF        QSYS                16384  Sì         No
+   EclipseAdaptor >  *STMF        QSYS                16384  Sì         No
+   EclipseAdaptor >  *STMF        QSYS                16384  Sì         No
+   EclipseAdaptor >  *STMF        QSYS                16384  Sì         No
+   EclipseAdaptor >  *STMF        QSYS                16384  Sì         No
+   Oggetto
+   EclipseAdaptorMessages_de.properties
+   EclipseAdaptorMessages_es.properties
+   EclipseAdaptorMessages_fr.properties
+   EclipseAdaptorMessages_it.properties
+   EclipseAdaptorMessages_ja.properties
+   EclipseAdaptorMessages_ko.properties
+   EclipseAdaptorMessages_pt_BR.properties
+   EclipseAdaptorMessages_zh_CN.properties
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    22
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto
+   EclipseAdaptorMessages_zh_TW.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi.nl1_3.0.1/org.eclipse.os
+gi.nl/o
+   rg/eclipse/osgi
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   framework         *DIR         QSYS                 8192  Sì         No
+   internal          *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi.nl1_3.0.1/org.eclipse.os
+gi.nl/o
+   rg/eclipse/osgi/framework
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   adaptor           *DIR         QSYS                 8192  Sì         No
+   internal          *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi.nl1_3.0.1/org.eclipse.os
+gi.nl/o
+   rg/eclipse/osgi/framework/adaptor
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   core              *DIR         QSYS                12288  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi.nl1_3.0.1/org.eclipse.os
+gi.nl/o
+   rg/eclipse/osgi/framework/adaptor/core
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   ExternalMessag >  *STMF        QSYS                 8192  Sì         No
+   ExternalMessag >  *STMF        QSYS                 8192  Sì         No
+   ExternalMessag >  *STMF        QSYS                 8192  Sì         No
+   ExternalMessag >  *STMF        QSYS                 8192  Sì         No
+   ExternalMessag >  *STMF        QSYS                 8192  Sì         No
+   ExternalMessag >  *STMF        QSYS                 8192  Sì         No
+   ExternalMessag >  *STMF        QSYS                 8192  Sì         No
+   ExternalMessag >  *STMF        QSYS                 8192  Sì         No
+   ExternalMessag >  *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   ExternalMessages_de.properties
+   ExternalMessages_es.properties
+   ExternalMessages_fr.properties
+   ExternalMessages_it.properties
+   ExternalMessages_ja.properties
+   ExternalMessages_ko.properties
+   ExternalMessages_pt_BR.properties
+   ExternalMessages_zh_CN.properties
+   ExternalMessages_zh_TW.properties
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    23
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi.nl1_3.0.1/org.eclipse.os
+gi.nl/o
+   rg/eclipse/osgi/framework/internal
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   core              *DIR         QSYS                28672  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi.nl1_3.0.1/org.eclipse.os
+gi.nl/o
+   rg/eclipse/osgi/framework/internal/core
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   ConsoleMessage >  *STMF        QSYS                16384  Sì         No
+   ConsoleMessage >  *STMF        QSYS                16384  Sì         No
+   ConsoleMessage >  *STMF        QSYS                16384  Sì         No
+   ConsoleMessage >  *STMF        QSYS                16384  Sì         No
+   ConsoleMessage >  *STMF        QSYS                32768  Sì         No
+   ConsoleMessage >  *STMF        QSYS                32768  Sì         No
+   ConsoleMessage >  *STMF        QSYS                16384  Sì         No
+   ConsoleMessage >  *STMF        QSYS                16384  Sì         No
+   ConsoleMessage >  *STMF        QSYS                16384  Sì         No
+   ExternalMessag >  *STMF        QSYS                16384  Sì         No
+   ExternalMessag >  *STMF        QSYS                16384  Sì         No
+   ExternalMessag >  *STMF        QSYS                16384  Sì         No
+   ExternalMessag >  *STMF        QSYS                16384  Sì         No
+   ExternalMessag >  *STMF        QSYS                32768  Sì         No
+   ExternalMessag >  *STMF        QSYS                16384  Sì         No
+   ExternalMessag >  *STMF        QSYS                16384  Sì         No
+   ExternalMessag >  *STMF        QSYS                16384  Sì         No
+   ExternalMessag >  *STMF        QSYS                16384  Sì         No
+   Oggetto
+   ConsoleMessages_de.properties
+   ConsoleMessages_es.properties
+   ConsoleMessages_fr.properties
+   ConsoleMessages_it.properties
+   ConsoleMessages_ja.properties
+   ConsoleMessages_ko.properties
+   ConsoleMessages_pt_BR.properties
+   ConsoleMessages_zh_CN.properties
+   ConsoleMessages_zh_TW.properties
+   ExternalMessages_de.properties
+   ExternalMessages_es.properties
+   ExternalMessages_fr.properties
+   ExternalMessages_it.properties
+   ExternalMessages_ja.properties
+   ExternalMessages_ko.properties
+   ExternalMessages_pt_BR.properties
+   ExternalMessages_zh_CN.properties
+   ExternalMessages_zh_TW.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi.nl1_3.0.1/org.eclipse.os
+gi.nl/o
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    24
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   rg/eclipse/osgi/internal
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   resolver          *DIR         QSYS                12288  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi.nl1_3.0.1/org.eclipse.os
+gi.nl/o
+   rg/eclipse/osgi/internal/resolver
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   StateMessages_ >  *STMF        QSYS                 8192  Sì         No
+   StateMessages_ >  *STMF        QSYS                 8192  Sì         No
+   StateMessages_ >  *STMF        QSYS                 8192  Sì         No
+   StateMessages_ >  *STMF        QSYS                 8192  Sì         No
+   StateMessages_ >  *STMF        QSYS                 8192  Sì         No
+   StateMessages_ >  *STMF        QSYS                 8192  Sì         No
+   StateMessages_ >  *STMF        QSYS                 8192  Sì         No
+   StateMessages_ >  *STMF        QSYS                 8192  Sì         No
+   StateMessages_ >  *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   StateMessages_de.properties
+   StateMessages_es.properties
+   StateMessages_fr.properties
+   StateMessages_it.properties
+   StateMessages_ja.properties
+   StateMessages_ko.properties
+   StateMessages_pt_BR.properties
+   StateMessages_zh_CN.properties
+   StateMessages_zh_TW.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi_3.0.1
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   .options          *STMF        QSYS                 8192  Sì         No
+   META-INF          *DIR         QSYS                 8192  Sì         No
+   about.html        *STMF        QSYS                 8192  Sì         No
+   console.jar       *STMF        QSYS                65536  Sì         No
+   core.jar          *STMF        QSYS              2752512  Sì         No
+   defaultAdaptor >  *STMF        QSYS              1073152  Sì         No
+   eclipse.proper >  *STMF        QSYS                 8192  Sì         No
+   eclipseAdaptor >  *STMF        QSYS              1355776  Sì         No
+   osgi.jar          *STMF        QSYS               741376  Sì         No
+   resolver.jar      *STMF        QSYS              1126400  Sì         No
+   systembundle.p >  *STMF        QSYS                 8192  Sì         No
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    25
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto
+   defaultAdaptor.jar
+   eclipse.properties
+   eclipseAdaptor.jar
+   systembundle.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.osgi_3.0.1/META-INF
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   MANIFEST.MF       *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.tomcat_4.1.30
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   about.html        *STMF        QSYS                16384  Sì         No
+   bootstrap.jar     *STMF        QSYS                32768  Sì         No
+   catalina.jar      *STMF        QSYS               786432  Sì         No
+   commons-beanut >  *STMF        QSYS               131072  Sì         No
+   commons-collec >  *STMF        QSYS               196608  Sì         No
+   commons-digest >  *STMF        QSYS               131072  Sì         No
+   commons-loggin >  *STMF        QSYS                32768  Sì         No
+   commons-loggin >  *STMF        QSYS                65536  Sì         No
+   commons-modele >  *STMF        QSYS               131072  Sì         No
+   conf              *DIR         QSYS                 8192  Sì         No
+   jakarta-regexp >  *STMF        QSYS                32768  Sì         No
+   jasper-compile >  *STMF        QSYS               196608  Sì         No
+   jasper-runtime >  *STMF        QSYS                98304  Sì         No
+   mx4j-jmx.jar      *STMF        QSYS               393216  Sì         No
+   mx4j.license      *STMF        QSYS                 8192  Sì         No
+   naming-common. >  *STMF        QSYS                32768  Sì         No
+   naming-factory >  *STMF        QSYS                32768  Sì         No
+   naming-resourc >  *STMF        QSYS                65536  Sì         No
+   plugin.propert >  *STMF        QSYS                 8192  Sì         No
+   plugin.xml        *STMF        QSYS                16384  Sì         No
+   preferences.in >  *STMF        QSYS                 8192  Sì         No
+   servlet.jar       *STMF        QSYS                98304  Sì         No
+   servlets-commo >  *STMF        QSYS                16384  Sì         No
+   servlets-defau >  *STMF        QSYS                32768  Sì         No
+   servlets-invok >  *STMF        QSYS                16384  Sì         No
+   servlets-manag >  *STMF        QSYS                32768  Sì         No
+   tomcat-coyote. >  *STMF        QSYS                98304  Sì         No
+   tomcat-http11. >  *STMF        QSYS                65536  Sì         No
+   tomcat-util.ja >  *STMF        QSYS               196608  Sì         No
+   tomcatwrapper. >  *STMF        QSYS                32768  Sì         No
+   webapps           *DIR         QSYS                 8192  Sì         No
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    26
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto
+   commons-beanutils.jar
+   commons-collections.jar
+   commons-digester.jar
+   commons-logging-api.jar
+   commons-logging.jar
+   commons-modeler.jar
+   jakarta-regexp-1.3.jar
+   jasper-compiler.jar
+   jasper-runtime.jar
+   naming-common.jar
+   naming-factory.jar
+   naming-resources.jar
+   plugin.properties
+   preferences.ini
+   servlets-common.jar
+   servlets-default.jar
+   servlets-invoker.jar
+   servlets-manager.jar
+   tomcat-coyote.jar
+   tomcat-http11.jar
+   tomcat-util.jar
+   tomcatwrapper.jar
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.tomcat_4.1.30/conf
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   catalina.polic >  *STMF        QSYS                16384  Sì         No
+   tomcat-users.x >  *STMF        QSYS                 8192  Sì         No
+   web.xml           *STMF        QSYS                65536  Sì         No
+   Oggetto
+   catalina.policy
+   tomcat-users.xml
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.tomcat_4.1.30/webapps
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   ROOT              *DIR         QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.tomcat_4.1.30/webapps/ROOT
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   WEB-INF           *DIR         QSYS                 8192  Sì         No
+   index.html        *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.tomcat_4.1.30/webapps/ROOT/WE
+B-INF
+                               Visualizzazione oggetti salvati - File di salvataggio                                    Pag.    27
+5722SS1 V5R3M0  040528                                                                     PERSEO    22/02/18         12:05:16 CET
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   web.xml           *STMF        QSYS                 8192  Sì         No
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.update.configurator.nl1_3.0.0
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   about.html        *STMF        QSYS                 8192  Sì         No
+   fragment.xml      *STMF        QSYS                 8192  Sì         No
+   nl1.jar           *STMF        QSYS                32768  Sì         No
+   plugin_de.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_es.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_fr.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_it.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_ja.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_ko.prop >  *STMF        QSYS                 8192  Sì         No
+   plugin_pt_BR.p >  *STMF        QSYS                 8192  Sì         No
+   plugin_zh_CN.p >  *STMF        QSYS                 8192  Sì         No
+   plugin_zh_TW.p >  *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   plugin_de.properties
+   plugin_es.properties
+   plugin_fr.properties
+   plugin_it.properties
+   plugin_ja.properties
+   plugin_ko.properties
+   plugin_pt_BR.properties
+   plugin_zh_CN.properties
+   plugin_zh_TW.properties
+ Indir. . . . . . . . . . . . . . . . . . . . . . :   /qibm/ProdData/OS400/Eclipse/plugins/org.eclipse.update.configurator_3.0.0
+   Oggetto           Tipo        Proprietario         Dimen  Dati      *ALWCKPWRT  Testo
+   .options          *STMF        QSYS                 8192  Sì         No
+   about.html        *STMF        QSYS                 8192  Sì         No
+   configurator.j >  *STMF        QSYS                98304  Sì         No
+   plugin.propert >  *STMF        QSYS                 8192  Sì         No
+   plugin.xml        *STMF        QSYS                 8192  Sì         No
+   Oggetto
+   configurator.jar
+   plugin.properties
+ Numero di oggetti salvati  . . . . . . :   533
+                                       * * * * *   F I N E   D E L L' E L E N C O   * * * * *

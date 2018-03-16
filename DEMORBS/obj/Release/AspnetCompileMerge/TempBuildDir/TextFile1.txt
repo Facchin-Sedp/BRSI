@@ -1,0 +1,19 @@
+﻿/*Configurazione 
+ * SAVCF0F 
+ * lib PMBRS
+ * JOB PMBRS
+ * SBS PMBRS
+ * cfetd cfetm data e ora
+ * cflib libreria da salvare
+ * cfcpr compressione si/no
+ * cfzip zippare si/no
+ * elenco librerie e selez quelle da salvare
+ * salvataggio file config vecchio
+ * user ftp
+ * ip ftp
+ * pwd ftp
+ * porta ftp
+ * checkftp connection
+ *
+ 
+ */
